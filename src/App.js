@@ -5,18 +5,27 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img
+          src={myLove}
+          alt="My Love"
+          className="love-photo"
+        />
+
+        <h1>❤️ To My Love ❤️</h1>
+
         <p>
-          I Luv Sandoo
+          Every moment with you is my favorite memory.
+          <br />
+          Thank you for filling my life with happiness and love.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         
-        </a>
+
+        <h2>I Love You Forever ❤️</h2>
+
+        <p className="signature">
+          With all my love,
+          <br />
+          Paula 💖
+        </p>
       </header>
     </div>
   );
